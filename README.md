@@ -40,3 +40,34 @@ To make this project scalable:
 git clone https://github.com/your-username/grpc-client-server-golang.git
 cd grpc-client-server-golang
 ```
+
+### Generate Protocol Buffers Code
+
+#### Run the following command to generate Go code from the .proto file:
+```bash
+protoc --go_out=. --go-grpc_out=. proto/greet.proto
+```
+
+### Run the Server
+
+#### To start the server, run:
+``` bash
+cd server
+go run .
+```
+
+
+### Run the Client
+
+#### Open another terminal and run the client:
+``` bash
+cd client
+go run .
+
+```
+
+
+![image](https://github.com/user-attachments/assets/1f17727f-91fe-44ed-9a42-4dc95d623fb3)
+![image](https://github.com/user-attachments/assets/3016da8b-ac4b-4489-b9c0-9f1b3377d110)
+
+
