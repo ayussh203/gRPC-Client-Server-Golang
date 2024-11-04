@@ -24,3 +24,19 @@ To make this project scalable:
 - **Connection Pooling**: Efficiently manage multiple connections for better resource usage.
 - **Data Caching**: Use caching to reduce database load.
 - **Fault Tolerance**: Implement retry mechanisms and backup servers for resilience.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- **Go**: Version 1.16 or later.
+- **gRPC and Protocol Buffers compiler (protoc)**.
+
+### Installation
+
+#### Clone the Repository
+```bash
+git clone https://github.com/your-username/grpc-client-server-golang.git
+cd grpc-client-server-golang
+```
