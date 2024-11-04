@@ -1,4 +1,4 @@
-gRPC Client-Server Communication in Go
+**gRPC Client-Server Communication in Go**
 Introduction
 This project demonstrates a Client-Server communication model using gRPC in Go. It showcases different communication patterns such as unary, server streaming, client streaming, and bidirectional streaming. gRPC, which uses Protocol Buffers for serialization, provides a robust and efficient way to communicate between distributed services, especially in microservices architectures.
 
