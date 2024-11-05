@@ -37,7 +37,7 @@ To make this project scalable:
 
 #### Clone the Repository
 ```bash
-git clone https://github.com/your-username/grpc-client-server-golang.git
+git clone https://github.com/ayussh203/grpc-client-server-golang.git
 cd grpc-client-server-golang
 ```
 
